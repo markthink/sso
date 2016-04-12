@@ -56,6 +56,7 @@ ktpass -princ  HTTP/trjcn.test.com@TEST.COM -mapuser mark  -pass Trj2016 -crypto
 ![服务管理器](./images/13.png)
 
 本地策略也非常重要，通过gpedit.msc打开本地策略编辑器
+
 ![服务管理器](./images/14.png)
 
 默认网络kerberos允许的加密协议是没有选中的，需要打开这些加密协议支持。
